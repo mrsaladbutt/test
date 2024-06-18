@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+}
+
+canvas {
+  border: "1px solid black";
+  background: white;
+}
+
+.canvas-wrapper {
+  position: relative;
+}
+
+input {
+  position: absolute;
+  max-width: 92px;
+  height: 20px;
+  outline: none;
+  border: none;
+  background: #ddd;
+  padding-left: 5px;
+  font-size: 10px;
+}
+
+.input-wrapper {
+  width: 802px;
+  height: 602px;
+  position: absolute;
+  top: 0;
+  left: 559px;
+}
+
+.warning-message {
+  color: red;
+}
